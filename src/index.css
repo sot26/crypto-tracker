@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.coin-row:hover{
+    transform: scale(1.04);
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.capi {
+    text-transform: lowercase;
+  }
+  .capi::first-letter {
+    text-transform: uppercase;
+  }
+
+.upp {
+    text-transform: uppercase;
+  }
+
+  .navbar-custom {
+    z-index:2;
+}
