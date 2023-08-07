@@ -2,25 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-
-
-.coin-row:hover{
-    transform: scale(1.04);
-    transition: .3s ease-in-out;
-    cursor: pointer;
+.coin-row:hover {
+  transform: scale(1.04);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
 }
 
 .capi {
-    text-transform: lowercase;
-  }
-  .capi::first-letter {
-    text-transform: uppercase;
-  }
+  text-transform: lowercase;
+}
+.capi::first-letter {
+  text-transform: uppercase;
+}
 
 .upp {
-    text-transform: uppercase;
-  }
+  text-transform: uppercase;
+}
 
-  .navbar-custom {
-    z-index:2;
+.navbar-custom {
+  z-index: 2;
+}
+
+.bg {
+  background: rgb(58, 114, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(58, 114, 180, 0.4207108868938201) 27%,
+    rgba(253, 29, 229, 0.605584836473652) 100%
+  );
+}
+
+.body {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 18%,
+    rgba(63, 9, 94, 1) 100%
+  );
 }
